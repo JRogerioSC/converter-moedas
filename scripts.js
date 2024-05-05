@@ -6,9 +6,8 @@ function convertValues() {
     const currencyValueToConvert = document.querySelector(".currency-value-to-convert") // valor em real//
     const currencyValueConverted = document.querySelector(".currency-value") // outras moedas//
 
-    const dolarToday = 5.2
-    const euroToday = 6.2
-
+    const dolarToday = 5.07
+    const euroToday = 5.46
 
     if (currencySelect.value == "dolar") {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
@@ -41,7 +40,7 @@ function changeCurrency() {
     const currencyImage = document.querySelector(".currency-img")
 
     if (currencySelect.value == "dolar") {
-        currencyName.innerHTML = "Dólar americano"
+        currencyName.innerHTML = "Dólar"
         currencyImage.src = "assets/dolar.png"
 
     }
