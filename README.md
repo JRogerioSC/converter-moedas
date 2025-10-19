@@ -1,4 +1,4 @@
-<h1>Conversor de Moedas</h1>
+<h1>Converter Moedas</h1>
 <br>
 <br>
 <h2>Esse é um dos meus primeiros projetos</h2>
